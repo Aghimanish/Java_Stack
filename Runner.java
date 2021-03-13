@@ -3,17 +3,8 @@ import java.util.Scanner;
 public class Runner {
 
     public static int[] takeInput(){
-	Scanner sc = new Scanner(System.in);
-	int size = sc.nextInt();
-    	int[] input = new int[size];
 
-    	if (size == 0) {
-    		return input;
-    	}
-
-    	for(int i = 0; i < size; i++) {
-    		input[i] = sc.nextInt();
-    	}
+    	int[] input = {60 ,70 ,80 ,100 ,90 ,75 ,80 ,120};
 
     	return input;
     }
